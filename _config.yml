@@ -57,6 +57,14 @@ exclude:
 sass:
   sass_dir: _sass
 
+indico:
+  url: https://indico.cern.ch
+  cache-command: bundle exec rake cache
+  timeout: 240 # topical is getting close to 60 seconds, the default
+  paginate: 25
+  ids:
+    topical: 15964
+    events: 15896
 
 #google_analytics: "G-B38RSBKPTR"
 
