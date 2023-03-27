@@ -1,0 +1,98 @@
+---
+permalink: /index.html
+layout: main
+title: Traineeship 
+bgimage: assets/images/Tprime-200pu-PhaseII-black-arctic-main-image.jpg
+---
+
+<div class="mainpage-all">
+<div class="mainpage-main mainpage-container">
+<div class="mainpage-intro mainpage-core">
+
+<h4>Computational and data science research to enable discoveries in fundamental physics</h4>
+
+{% capture irishead %}
+TAC-HEP is a recently funded multi-institutional (Princeton, UMass and UW-Madison) program in Computational High Energy Physics. [Full Overview]({{ site.baseurl }}/about/overview.html)
+{% endcapture %}
+{{ irishead | markdownify }}
+
+</div>
+
+
+<div class="mainpage-news mainpage-core">
+<h4>News and Featured Stories:</h4>
+
+<div class="container-fluid">
+  <div class="news row">
+    {% for post in site.posts limit:4 %}
+       <div class="card news">
+          <a href="{{ site.baseurl }}{{post.url}}">
+            <img class="card-img-top" src="{{ site.baseurl }}{{post.image}}" {% if post.image-whole -%} style="object-fit:scale-down;" {% endif -%} alt="Card image cap">
+          </a>
+          <div class="card-body d-flex flex-column">
+            <div class="card-text card-title">
+               <a href="{{post.url}}">{{post.title}}</a>
+            </div>
+            <div class="card-text card-body">
+              {% if post.summary %}
+                  {{ post.summary | markdownify }}
+              {% else %}
+                  {{ post.excerpt | strip_html }}
+              {% endif %}
+            <a href="{{ site.baseurl }}{{post.url}}">Read more</a></div>
+          </div>
+       </div>
+    {% endfor %}
+  </div>
+</div>
+
+<a href="{{ site.baseurl }}/news.html">View all past news items</a>
+</div>
+
+</div>
+
+
+<div class="mainpage-sidebar mainpage-container">
+<div class="mainpage-events mainpage-core">
+
+<div class="mainpage-sidebar-text">
+<h4>Upcoming Events:</h4>
+</div>
+
+{%- include get_all_events.html -%}
+
+{% assign selected_events = all_events | where_day_range: "startdate", 6 | where_exp: "item", "item.skipfrontpage != true" | reverse %}
+
+<ul>
+  {% for event in selected_events %}
+    <li>
+      <a href="{{event.meetingurl}}">
+        <div class="event">
+          <div class="date">
+            {{ event.startdate | print_date_range: event.enddate }}
+          </div>
+          <div class="location">
+            {{event.location}}
+          </div>
+          <div class="name">
+            {{event.name}}
+          </div>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+{%- if selected_events.size == 0 %}
+  <div class="empty">
+    No events currently scheduled. Check back again soon!
+  </div>
+{%- endif %}
+
+<div class="mainpage-sidebar-links">
+<a href="{{ site.baseurl }}/events.html">View all past events</a>
+</div>
+
+
+</div>
+</div>
+
