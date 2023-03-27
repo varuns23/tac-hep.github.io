@@ -8,7 +8,7 @@ github-username: isobelojalvo
 photo: "/assets/images/team/Isobel-Ojalvo.png"
 shortname: isobelojalvo
 title: 
-website: https://phy.princeton.edu/people/isobel-ojalvo
+website: "https://phy.princeton.edu/people/isobel-ojalvo"
 networks:
   - cms
 presentations:
