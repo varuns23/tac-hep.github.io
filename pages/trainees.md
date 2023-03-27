@@ -1,10 +1,10 @@
 ---
-permalink: /fellows.html
+permalink: /trainees.html
 layout: default
-title: TAC/HEP Fellows Program
+title: TAC/HEP Traineeship Program
 ---
 
-# TAC-HEP Fellows Program
+# TAC-HEP Traineeship Program
 
 Bla bla bla
 
@@ -19,7 +19,7 @@ Bla bla bla
 
 
 {%- if active-fellows.size > 0 %}
-# Current TAC-HEP Fellows
+# Current TAC-HEP Trainees
 
 <div class="container-fluid">
   <div class="row">
@@ -43,7 +43,7 @@ Bla bla bla
 
 {% endif %}
 
-# Former TAC-HEP Fellows
+# Former TAC-HEP Trainees
 <div class="container-fluid">
   <div class="row">
     {% for person in inactive-fellows %}
