@@ -1,19 +1,36 @@
 ---
 permalink: /about/team.html
 layout: people
-title: Institute Team
+title: TAC-HEP Collaborators
 ---
 
-{% include institution_list.html %}
-{% assign univs = institution_list | hash_fetch: site.data.universities %}
+{% assign univs = site.institutes %}
 
-<h1>Team</h1><br>
+<h1>TAC-HEP Collaborators</h1><br>
+
+<div class="container-fluid">
+  <div class="row">
+    {% for univ in univs %}
+      {% for person in univ.personnel %}
+        {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person" 
+    | first %}
+        {% if collaborator.active and collaborator.hidden != true %}
+          {% include standard_person_card.md person=collaborator %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+
+{%- comment -%}
+<br>
+<h1>Former Collaborators</h1><br>
 
 <div class="container-fluid">
   <div class="row">
     {% for univ in univs %}
       {% assign members = univ.personnel | hash_fetch: site.data.people
-                                         | where_exp:"item", "item.active"
+                                         | where_exp: "item", "item.active == nil or item.active == false and item.hidden != true"
                                          | last_name_sort: "name" %}
 
       {% for person in members %}
@@ -22,18 +39,5 @@ title: Institute Team
     {% endfor %}
   </div>
 </div>
-
-<br>
-<h1>Collaborators</h1><br>
-
-{% assign collaborator_list = site.data.collaborators | where_exp:"item", "item.active"
-                                                      | last_name_sort: "name" %}
-
-<div class="container-fluid">
-  <div class="row">
-    {% for person in collaborator_list %}
-      {% include standard_person_card.md person=person %}
-    {% endfor %}
-  </div>
-</div>
+{%- endcomment -%}
 
