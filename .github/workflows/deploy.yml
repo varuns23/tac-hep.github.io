@@ -55,6 +55,6 @@ jobs:
         if: >
           success()
           && github.ref == 'refs/heads/master'
-          && github.repository == 'research-software-collaborations/research-software-collaborations.github.io'
+          && github.repository == 'tac-hep/tac-hep.github.io'
         id: deployment
         uses: actions/deploy-pages@v1
