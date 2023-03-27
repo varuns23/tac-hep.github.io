@@ -1,6 +1,6 @@
 ---
 layout: institute
-title: University of Wisconsin
+title: University of Wisconsin - Madison
 latitude: 
 longitude: 
 url: https://www.physics.wisc.edu
