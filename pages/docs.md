@@ -9,11 +9,11 @@ title: "Documentation pages"
 #### Informational
 
 #### New team members
-* [New trainee page](/tac-hep/docs/new-trainee)
-* [New senior team member page](/tac-hep/docs/newteammember)
+* [New trainee page](/docs/new-trainee)
+* [New senior team member page](/docs/newteammember)
 
 #### Website
-* [Website GitHub repo](https://github.com/uwcms/tac-hep/)
-* [Add new news post](/tac-hep/docs/add_news)
-* [Website design features](/tac-hep/docs/webdesign)
-* [Additional information for editing website](/tac-hep/docs/other)
+* [Website GitHub repo](https://github.com/tac-hep/tac-hep.github.io)
+* [Add new news post](/docs/add_news)
+* [Website design features](/docs/webdesign)
+* [Additional information for editing website](/docs/other)
