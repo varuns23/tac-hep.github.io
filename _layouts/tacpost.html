@@ -19,7 +19,7 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
   </header>
-  {%- if page.image and page.image != "/assets/images/default-card.png" -%}
+  {%- if page.image and page.image != "{{ site.baseurl }}/assets/images/default-card.png" -%}
     {%- if page.image-caption -%}
       {% include figure.html file=page.image alt="Post primary image" caption=page.image-caption %}
     {%- else -%}
@@ -33,7 +33,6 @@ layout: default
 
 <div class="iris-post-footer">
 <hr>
-<em>IRIS-HEP is pleased to see our news stories reposted on the websites of other organizations. The stories should be reposted with credits to the IRIS-HEP website and the original authors, as well as a link to the original posting. Any alterations to the text or images for the reposting should be agreed by the IRIS-HEP Communications team.  Please email <a href="mailto:owner@iris-hep.org">owner@iris-hep.org</a>.</em>
 </div>
 
   {%- if site.disqus.shortname -%}
