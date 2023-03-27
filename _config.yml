@@ -22,7 +22,7 @@ email: charis.kleio.koraka@cern.ch
 description: >- # this means to ignore newlines until "baseurl:"
   Training to Advance Computational High Energy Physics in the Exascale Era (TAC-HEP)
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tac-hep.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tac-hep.org" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: tac-hep
 excerpt_separator: <!--more-->
 logo: /mstile-150x150.png
