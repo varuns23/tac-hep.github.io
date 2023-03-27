@@ -39,4 +39,35 @@ different page categories (using our custom frontmatter tag "pagetype").
 {% endfor %}
 </ul>
 
+<br>
+<b>Institutes:</b>
+<ul>
+{% for post in site.institutes %}
+  <li><a href="{{post.url}}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<br>
+<b>Networks:</b>
+<ul>
+{% for post in site.networks %}
+  <li><a href="{{post.url}}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<br>
+<b>Collaborators:</b>
+<ul>
+{% for post in site.collaborators %}
+  <li><a href="{{post.url}}">{{ post.name }}</a></li>
+{% endfor %}
+</ul>
+
+<br>
+<b>Trainees:</b>
+<ul>
+{% for post in site.trainees %}
+  <li><a href="{{post.url}}">{{ post.name }}</a></li>
+{% endfor %}
+</ul>
 
