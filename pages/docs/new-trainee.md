@@ -1,5 +1,5 @@
 ---
-permalink: /docs/fellow.html
+permalink: /docs/new-trainee.html
 layout: default
 title: Information to add or update fellows
 pagetype: doc
