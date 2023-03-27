@@ -78,6 +78,9 @@ collections:
   collaborators:
     output: true
     permalink: /:collection/:name
+  trainees:
+    output: true
+    permalink: /:collection/:name
 
 iris-hep:
   extra-focus-areas:
