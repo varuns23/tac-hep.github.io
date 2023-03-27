@@ -1,0 +1,52 @@
+<!doctype html>
+
+{% include layout_header_navbar.html %}
+    <div id="container">
+      <div class="container page">
+        <main role="main">
+
+<div class="row" style="display: flex; margin-bottom: 3.5em; margin-top: 3.5em;">
+  <div class="card" style="border: 0px solid white; padding: 5px">
+  <img style="height: 85px;" src="{{page.logo}}" alt="Card image cap"> 
+  </div>
+  <div class="mainpage-core mainpage-container" style="border: 0px solid white; padding: 5px">
+  <h2>{{ page.title }}</h2>
+  </div>
+</div>  
+
+<div>
+  Website: <a href="{{page.website}}">{{page.website}}</a>
+<br><br><br>
+</div>
+<div>
+  {{ content }}
+</div>
+
+
+{% assign nummembers = page.personnel | size %}
+{% if nummembers > 0 %}
+<h2>Collaborators</h2>
+<div class="container-fluid">
+  <div class="row">
+
+      {% for person in page.personnel %}
+        {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person" 
+    | first %}
+        {% if collaborator.active and collaborator.hidden != true %}
+          {% include standard_person_card.md person=collaborator %}
+        {% endif %}
+      {% endfor %}
+
+  </div>
+</div>
+{% endif %}
+
+        </main>
+      </div>
+      {% include_cached footer.html %}
+    </div>
+
+  {% include_cached layout_analytics.html %}
+
+  </body>
+</html>

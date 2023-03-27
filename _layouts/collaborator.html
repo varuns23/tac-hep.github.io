@@ -1,0 +1,71 @@
+<!doctype html>
+
+{% if page.title.IsNullOrWhiteSpace %}
+  {%- assign page.title = page.name %}
+{% endif %}
+
+{% include layout_header_navbar.html %}
+    <div id="container">
+      <div class="container page">
+        <main role="main">
+
+<div class="row" style="display: flex; margin-bottom: 3.5em; margin-top: 3.5em;">
+  <div class="card" style="border: 0px solid white; padding: 5px">
+  <img style="height: 250px;" src="{{page.photo}}" alt="Card image cap"> 
+  </div>
+  <div class="mainpage-core mainpage-container" style="border: 0px solid white; padding: 5px">
+  <h2>{{ page.name }}</h2> 
+  <h3><i>{{ page.institution }}</i></h3>
+  </div>
+</div>  
+
+<div>
+{% if page.website and page.website != blank %}
+<b>Website:</b> <a href="{{page.website}}">{{page.website}}</a>
+<br>
+{% endif %}
+{% if page.e-mail and page.e-mail != blank %}
+<b>Email:</b> <a href="mailto:{{page.e-mail}}">{{page.e-mail}}</a>
+<br>
+{% endif %}
+{% if page.github-username and page.github-username != blank %}
+<b>GitHub:</b> <a href="https://github.com/{{ page.github-username }}">https://github.com/{{ page.github-username }}</a>
+{% endif %}
+<br><br><br>
+</div>
+
+<div>
+  {{ content }}
+</div>
+
+{% comment %}
+<h3>Presentations related to HSF-India</h3>
+{% assign prescount = 0 %}
+
+{%- assign presentationlist = page.presentations | default: empty-list | sort: "date" | reverse -%}
+<h4>{{page.name}} - {{page.institution}}</h4>
+{%- if presentationlist.size > 0 -%}
+  <ul>
+    {%- for talk in presentationlist -%}
+      {%- assign prescount = prescount | plus: "1" -%}
+      <li>
+        {%- include print_pres.html talk=talk -%}
+      </li>
+    {%- endfor- %}
+  </ul>
+{%- else -%}
+  <p>No presentations found.</p>
+{%- endif -%}
+
+Total presentations: {{ prescount }}.
+{% endcomment %}
+
+        </main>
+      </div>
+      {% include_cached footer.html %}
+    </div>
+
+  {% include_cached layout_analytics.html %}
+
+  </body>
+</html>

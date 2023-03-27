@@ -1,0 +1,37 @@
+<!doctype html>
+
+{% include layout_header_navbar.html %}
+    <div id="container">
+      <div class="container page">
+        <main role="main">
+
+<h2>{{ page.title }}</h2>
+          {{ content }}
+
+{% assign nummembers = page.personnel | size %}
+{% if nummembers > 0 %}
+<h3>{{ page.title }} Collaborators</h3>
+<div class="container-fluid">
+  <div class="row">
+
+      {% for person in page.personnel %}
+        {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person" 
+    | first %}
+        {% if collaborator.active and collaborator.hidden != true %}
+          {% include standard_person_card.md person=collaborator %}
+        {% endif %}
+      {% endfor %}
+
+  </div>
+</div>
+{% endif %}
+
+        </main>
+      </div>
+      {% include_cached footer.html %}
+    </div>
+
+  {% include_cached layout_analytics.html %}
+
+  </body>
+</html>

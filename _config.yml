@@ -1,0 +1,74 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Training to Advance Computational High Energy Physics in the Exascale Era (TAC-HEP)
+email: charis.kleio.koraka@cern.ch
+description: >- # this means to ignore newlines until "baseurl:"
+  Training to Advance Computational High Energy Physics in the Exascale Era (TAC-HEP)
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://research-software-collaborations.org" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: tac-hep
+excerpt_separator: <!--more-->
+logo: /mstile-150x150.png
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /mstile-150x150.png
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+strict_front_matter: true
+
+liquid:
+  error_mode: strict
+  strict_filters: true
+
+# Exclude from processing.
+exclude:
+  - _cache
+  - _scripts
+  - bin
+  - .github
+  - Rakefile
+
+sass:
+  sass_dir: _sass
+
+
+#google_analytics: "G-B38RSBKPTR"
+
+collections:
+  institutes:
+    output: true
+    permalink: /:collection/:name
+  networks:
+    output: true
+    permalink: /:collection/:name
+  collaborators:
+    output: true
+    permalink: /:collection/:name
+
+

@@ -1,0 +1,35 @@
+<div class="mainpage-sidebar-text">
+<center>
+  <h4>Topical Meetings</h4>
+  </center>
+</div>
+{% include get_indico_list.html %}
+{% assign upcoming_topical = indico_list | where_day_range: "startdate", 1 %}
+
+{% for event in upcoming_topical %}
+    <a href="{{event.meetingurl}}">
+      <div class="event">
+        <div class="date">
+          {{ event.startdate | print_date_range: event.enddate }}
+        </div>
+        <div class="location">
+        </div>
+        <div class="name">
+          {{event.name}}
+        </div>
+      </div>
+    </a>
+{% endfor %}
+
+{%- if upcoming_topical.size == 0 %}
+    <div class="empty">
+    No meetings currently scheduled. <br>Check back again soon! <br>
+  </div>
+{%- endif %}
+
+<div class="mainpage-sidebar-links">
+<a href="/topical.html" aria-label="View all topical meetings">View all</a>
+&bull;
+<a href="https://indico.cern.ch/category/15964/" aria-label="Indico page for topical meetings">Indico</a>
+<a href="https://www.youtube.com/c/HEPSoftwareFoundation/videos" aria-label="Recordings of past topical meetings">(recordings)</a>
+</div>
