@@ -3,7 +3,7 @@ name: Deploy
 on:
   workflow_dispatch:
   push:
-    branches: master
+    branches: main
   schedule:
     - cron: "0 0 * * *"
 
@@ -54,7 +54,7 @@ jobs:
       - name: Deploy to GitHub Pages
         if: >
           success()
-          && github.ref == 'refs/heads/master'
+          && github.ref == 'refs/heads/main'
           && github.repository == 'tac-hep/tac-hep.github.io'
         id: deployment
         uses: actions/deploy-pages@v1
