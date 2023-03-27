@@ -5,7 +5,7 @@ name: Isobel Ojalvo
 institution: Princeton University
 e-mail: iojalvo@princeton.edu
 github-username: isobelojalvo
-photo: "/assets/images/team/Isobel-Ojalvo.png
+photo: "/assets/images/team/Isobel-Ojalvo.png"
 shortname: isobelojalvo
 title: 
 website: https://phy.princeton.edu/people/isobel-ojalvo
