@@ -9,5 +9,7 @@ title: Training Modules
 
 
 #### List of trainings
-* [GPU and FPFA training module](/tac-hep/trainingmodules/uw-gpu-fpga)
+
+* [Software Engineering for Scientific Computing](/trainingmodules/software-engineering)
+* [GPU and FPFA training module](/trainingmodules/uw-gpu-fpga)
 
