@@ -5,7 +5,7 @@ title: Information to add or update fellows
 pagetype: doc
 ---
 
-### Adding a New Fellow Page
+### Adding a New Fellow Page to TAC-HEP
 
 #### TAC-HEP website
 In order to add your information, we request you to please supply a photo ( First_Name-Last_Name.jpg or .png - 320x240 pixels) and a paragraph summarizing your project’s goals.
