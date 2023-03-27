@@ -1,5 +1,5 @@
 ---
-permalink: /trainingmodules/software-engineering.html
+permalink: /training-modules/software-engineering.html
 layout: default
 title: Software Engineering for Scientific Computing
 ---
@@ -10,5 +10,5 @@ Coming soon... (Really)
 
 The duration of this training is 1 semester (14 weeks). The detailed syllabus and series of lectures can be found below.
 </p>
-- [Course syllabus](/tac-hep/trainingmodules/software-engineering/software-engineering-intro.pdf)
+- [Course syllabus](/training-modules/software-engineering/software-engineering-intro.pdf)
 
