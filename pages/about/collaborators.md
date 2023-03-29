@@ -6,18 +6,19 @@ title: TAC-HEP Collaborators
 
 {% assign univs = site.institutes %}
 
-{%- assign univpeople = '' -%}
-{%- assign labpeople = '' -%}
+{% assign univpeople = '' | split: '' %}
+{% assign labpeople = '' | split: '' %}
 
-{% for univ in univs %}
+% for univ in univs %}
   {% for person in univ.personnel %}
     {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person"
 | first %}
     {% if collaborator.active and collaborator.hidden != true %}
+      {% assign collabarray = collaborator | split: '' %}
       {% if univ.category == 'university' %}
-        {%- assign univpeople = univpeople | append: "," | append: collaborator  %}
+        {%- assign univpeople = univpeople  append: collabarray %}
       {% elsif univ.category == 'lab' %}
-        {%- assign labpeople = labpeople | append: "," | append: collaborator  %}
+        {%- assign labpeople = labpeople  | append: collabarray %}
       {% endif %}
     {% endif %}
   {% endfor %}
