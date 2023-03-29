@@ -6,8 +6,8 @@ title: TAC-HEP Collaborators
 
 {% assign univs = site.institutes %}
 
-{% assign univpeople = '' | split: '' %}
-{% assign labpeople = '' | split: '' %}
+{% assign univpeople = '' %}
+{% assign labpeople = '' %}
 
 <h1>TAC-HEP University Collaborators</h1><br>
 
