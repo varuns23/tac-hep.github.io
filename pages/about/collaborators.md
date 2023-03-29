@@ -26,6 +26,24 @@ title: TAC-HEP Collaborators
 
 <h1>TAC-HEP Laboratory Collaborators</h1><br>
 
+<div class="container-fluid">
+  <div class="row">
+    {% for univ in univs %}
+      {% for person in univ.personnel %}
+        {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person"
+    | first %}
+        {% if collaborator.active and collaborator.hidden != true %}
+          {% if univ.category == 'lab' %}
+            {% include standard_person_card.md person=collaborator %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+
+
+
 <h1>Old</h1><br>
 
 {% assign members = site.collaborators | where_exp:"item", "item.active and item.hidden != true"
