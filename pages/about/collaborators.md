@@ -16,9 +16,9 @@ title: TAC-HEP Collaborators
     {% if collaborator.active and collaborator.hidden != true %}
       {% assign collabarray = collaborator | split: '' %}
       {% if univ.category == 'university' %}
-        {%- assign univpeople = univpeople  append: collabarray %}
+        {%- assign univpeople = univpeople | concat: collabarray %}
       {% elsif univ.category == 'lab' %}
-        {%- assign labpeople = labpeople  | append: collabarray %}
+        {%- assign labpeople = labpeople  | concat: collabarray %}
       {% endif %}
     {% endif %}
   {% endfor %}
