@@ -1,18 +1,18 @@
 ---
- layout: collaborator
- active: true
- name: Matthew Harris
- institution: University of Massachusetts Amherst
- e-mail: Matthewharri@umass.edu
- github-username: Matthewharri
- photo: "/assets/images/trainees/Matthew-Harris.png"
- shortname: Matthewharri
- title: 
- website: https://www.umass.edu/physics/people/matthew-harris
- networks:
-   - ATLAS
- presentations:
- ---
+layout: collaborator
+active: true
+name: Matthew Harris
+institution: University of Massachusetts Amherst
+e-mail: Matthewharri@umass.edu
+github-username: Matthewharri
+photo: "/assets/images/trainees/Matthew-Harris.png"
+shortname: Matthewharri
+title: 
+website: https://www.umass.edu/physics/people/matthew-harris
+networks:
+  - atlas
+presentations:
+---
 
  ### Biography
  I am a third year graduate student currently working in the UMass Amherst ATLAS group, advised by Stephane Willocq. 
