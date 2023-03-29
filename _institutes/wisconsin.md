@@ -1,5 +1,6 @@
 ---
 layout: institute
+category: university
 title: University of Wisconsin - Madison
 latitude: 
 longitude: 

@@ -1,5 +1,6 @@
 ---
 layout: institute
+category: university
 title: Princeton University
 latitude: 40.3431
 longitude: -74.6551

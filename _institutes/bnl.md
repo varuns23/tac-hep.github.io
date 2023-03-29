@@ -1,5 +1,6 @@
 ---
 layout: institute
+category: lab
 title: Brookhaven National Laboratory (BNL)
 latitude: 
 longitude: 

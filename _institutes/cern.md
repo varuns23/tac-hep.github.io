@@ -1,5 +1,6 @@
 ---
 layout: institute
+category: lab
 title: CERN
 latitude: 
 longitude: 
