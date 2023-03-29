@@ -27,13 +27,12 @@ title: TAC-HEP Collaborators
 <h2>university people - {{ univarray.size }} </h2>
 <h2>lab people - {{ labarray.size }} </h2>
 
-{% comment %}
 <h1>TAC-HEP University Collaborators</h1><br>
 
 <div class="container-fluid">
   <div class="row">
-    {% for person in univpeople %}
-       {% include standard_person_card.md person=person %}
+    {% for person in univarray %}
+       <h2>{{ person }} - university</h2>
     {% endfor %}
   </div>
 </div>
@@ -42,13 +41,11 @@ title: TAC-HEP Collaborators
 
 <div class="container-fluid">
   <div class="row">
-    {% for person in labpeople %}
-       {% include standard_person_card.md person=person %}
+    {% for person in labarray %}
+       <h2>{{ person }} - lab</h2>
     {% endfor %}
   </div>
 </div>
-{% endcomment %}
-
 
 <h1>Old</h1><br>
 
