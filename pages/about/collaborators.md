@@ -21,10 +21,10 @@ title: TAC-HEP Collaborators
   {% endfor %}
 {% endfor %}
 
-{% assign univarray = univpeople | split: ',' %}
-{% assign labarray = labpeople | split: ',' %}
-{% assign univarray = univarray | compact %}
-{% assign labarray = labarray | compact %}
+{%- assign univarray = univpeople | split: ',' -%}
+{%- assign labarray = labpeople | split: ',' -%}
+{%- assign univarray = univarray | compact -%}
+{%- assign labarray = labarray | compact -%}
 
 <h2>university people - {{ univarray.size }} </h2>
 <h2>lab people - {{ labarray.size }} </h2>
