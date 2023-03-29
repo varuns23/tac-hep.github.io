@@ -13,19 +13,19 @@ title: TAC-HEP Collaborators
 
 {% for univ in univs %}
   {% for person in univ.personnel %}
-    {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person"
-| first %}
-    {% if collaborator.active and collaborator.hidden != true %}
-      {% assign collabarray = collaborator | split: '' %}
-      {% if univ.category == 'university' %}
-         <h2>{{ collaborator.name }} - university</h2>
-      {% elsif univ.category == 'lab' %}
-         <h2>{{ collaborator.name }} - lab</h2>
-      {% endif %}
+    {% if univ.category == 'university' %}
+      {% assign univpeople = univpeople | append: "," | append: person %}
+    {% elsif univ.category == 'lab' %}
+      {% assign labpeople = labpeople | append: "," | append: person %}
     {% endif %}
   {% endfor %}
 {% endfor %}
 
+{% assign univarray = univpeople | split: ',' | compact %}
+{% assign labarray = labpeople | split: ',' | compact %}
+
+<h2>university people - {{ univarray.size }} </h2>
+<h2>lab people - {{ labarray.size }} </h2>
 
 {% comment %}
 <h1>TAC-HEP University Collaborators</h1><br>
