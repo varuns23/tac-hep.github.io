@@ -6,7 +6,34 @@ title: TAC-HEP Collaborators
 
 {% assign univs = site.institutes %}
 
-<h1>TAC-HEP University Collaborators</h1><br>
+{%- assign univpeople = '' -%}
+{%- assign labpeople = '' -%}
+
+{% for univ in univs %}
+  {% for person in univ.personnel %}
+    {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person"
+| first %}
+    {% if collaborator.active and collaborator.hidden != true %}
+      {% if univ.category == 'university' %}
+        {%- assign univpeople = univpeople | append: "," | append: collaborator  %}
+      {% elsif univ.category == 'lab' %}
+        {%- assign labpeople = labpeople | append: "," | append: collaborator  %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<h1>Try 2 TAC-HEP University Collaborators</h1><br>
+
+<div class="container-fluid">
+  <div class="row">
+    {% for person in univpeople %}
+       {% include standard_person_card.md person=collaborator %}
+    {% endfor %}
+  </div>
+</div>
+
+<h1>Try 1 TAC-HEP University Collaborators</h1><br>
 
 <div class="container-fluid">
   <div class="row">
@@ -24,7 +51,7 @@ title: TAC-HEP Collaborators
   </div>
 </div>
 
-<h1>TAC-HEP Laboratory Collaborators</h1><br>
+<h1>Try 2 TAC-HEP Laboratory Collaborators</h1><br>
 
 <div class="container-fluid">
   <div class="row">
