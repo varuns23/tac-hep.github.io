@@ -9,6 +9,8 @@ title: TAC-HEP Collaborators
 {% assign univpeople = '' | split: '' %}
 {% assign labpeople = '' | split: '' %}
 
+<h1>TAC-HEP University Collaborators</h1><br>
+
 {% for univ in univs %}
   {% for person in univ.personnel %}
     {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person"
@@ -16,14 +18,16 @@ title: TAC-HEP Collaborators
     {% if collaborator.active and collaborator.hidden != true %}
       {% assign collabarray = collaborator | split: '' %}
       {% if univ.category == 'university' %}
-        {% assign univpeople = univpeople | concat: collabarray %}
+         <h2>{{ collaborator.name }} - university</h2>
       {% elsif univ.category == 'lab' %}
-        {% assign labpeople = labpeople  | concat: collabarray %}
+         <h2>{{ collaborator.name }} - lab</h2>
       {% endif %}
     {% endif %}
   {% endfor %}
 {% endfor %}
 
+
+{% comment %}
 <h1>TAC-HEP University Collaborators</h1><br>
 
 <div class="container-fluid">
@@ -43,6 +47,7 @@ title: TAC-HEP Collaborators
     {% endfor %}
   </div>
 </div>
+{% endcomment %}
 
 
 <h1>Old</h1><br>
