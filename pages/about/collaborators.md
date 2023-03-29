@@ -28,7 +28,7 @@ title: TAC-HEP Collaborators
 <div class="container-fluid">
   <div class="row">
     {% for person in univpeople %}
-       {% include standard_person_card.md person=collaborator %}
+       {% include standard_person_card.md person=person %}
     {% endfor %}
   </div>
 </div>
@@ -38,7 +38,7 @@ title: TAC-HEP Collaborators
 <div class="container-fluid">
   <div class="row">
     {% for person in labpeople %}
-       {% include standard_person_card.md person=collaborator %}
+       {% include standard_person_card.md person=person %}
     {% endfor %}
   </div>
 </div>
