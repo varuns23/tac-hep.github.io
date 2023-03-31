@@ -1,29 +1,29 @@
 ---
-layout: fellow
-pagetype: fellow
-shortname: <your GitHub user id>
-permalink: /fellows/twnelson0.html
-fellow-name: Trevor Nelson
-title: Trevor Nelson - TAC-HEP Fellow
-active: True
-dates:
-  start: <2022/06/01>
-  end: <2024/06/01>
-photo: /assets/images/team/Trevor-Nelson.jpg
+layout: collaborator
+active: true
+name: Trevor Nelson
 institution: University of Wisconsin-Madison
+institutionkey: wisconsin
 e-mail: twnelson2@wisc.edu
-focus-area: <Focus Area - ia,ssl,ssc,doma,as,osglhc>
-project_title: <Project title>
-project_goal: >
-    I am working on porting the CMS E/Gamma Reconstruction code to run on GPUs. Currently the
-    project is focused on the electron seeding. I am working on this project with Dr. Charis
-    Koraka, Dr. Matti Kortelainen and Dr. Andrea Bocci. 
-mentors:
-  - Dr. Charis Koraka (University of Wisconsin-Madison)
-  - Dr. Tulika Bose (University of Wisconsin-Madison)
-  - Dr. Matti Kortelainen (Fermi Lab)
-  - Dr. Andrea Bocci (CERN)
-presentations:
-current_status: >
 github-username: twnelson0
+photo: /assets/images/trainees/Trevor-Nelson.jpg
+shortname: twnelson0
+title: 
+networks:
+  - cms
+presentations:
 ---
+
+## Project
+I am working on porting the CMS E/Gamma Reconstruction code to run on GPUs. Currently the project is focused on the electron seeding. I am working on this project with Dr. Charis Koraka, Dr. Matti Kortelainen and Dr. Andrea Bocci. 
+
+## mentors:
+ * Dr. Charis Koraka (University of Wisconsin-Madison)
+ * Dr. Tulika Bose (University of Wisconsin-Madison)
+ * Dr. Matti Kortelainen (Fermi Lab)
+ * Dr. Andrea Bocci (CERN)
+
+## Dates
+
+1 June, 2022 - 1 June, 2024 
+
