@@ -25,10 +25,14 @@ tools within the ecosystem.
 
 - The scientific Python ecosystem (3.5 hours)
 - Introduction to performance tuning and optimization tools (0.5 hours)
-- Machine learning: decision trees, CNNs, graph NNs, unsupervised, and autoencoders (7 hours)
 - Columnar data analysis (3.5 hours)
-- Parallel programming (6.5 hours)
 - Analysis facilities: coffea-casa and the Analysis Grand Challenge workflow (2 hours)
 - Analysis scale-out techniques (2 hours)
 - Julia for analysis (2 hours)
+
+<!--
+- Machine learning: decision trees, CNNs, graph NNs, unsupervised, and autoencoders (7 hours)
+- Parallel programming (6.5 hours)
 - Coding Jam: long group exercise, extended over 5 days (5.75 hours)
+-->
+
