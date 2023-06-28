@@ -21,6 +21,8 @@ modern analysis facilities. The goal of the module will be
 to prepare the students to develop scalable, performant and innovative
 tools within the ecosystem.
 
+Development of this module is partially supported by the [IRIS-HEP software institute](https://iris-hep.org/).
+
 ## Topics
 
 - The scientific Python ecosystem (3.5 hours)
