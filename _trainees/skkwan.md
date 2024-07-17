@@ -23,4 +23,6 @@ I am very interested in High Level Synthesis and FPGAs. My research includes a s
 
 As a summer project I developed a GELU (Gaussian Error Linear Unit) activation function for a Transformer on an FPGA using HLS. This involved creating high-level descriptions of the key components in C/C++ and using HLS tools to synthesize them into HDL code. The GELU function and Transformer’s self-attention mechanism serve as examples of how to approach this complex task. Properly designing and optimizing these components for FPGA resources and performance is crucial for an efficient implementation. I compared different methods for implementation: one using look up tables and one using DSPs and compared the resource utilization for each method.
 
-Mentors: Jennifer Ngadiuba (Fermilab), Adrian Pol (Princeton, IRIS-HEP)
+### Mentors 
+  * Jennifer Ngadiuba (Fermilab) 
+  * Adrian Pol (Princeton, IRIS-HEP)
