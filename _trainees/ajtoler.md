@@ -14,10 +14,16 @@ networks:
 presentations:
 ---
 
-### Biography
+### Biography and Interests
  
  I am a second year graduate student currently working in the UMass Amherst ATLAS group, advised by Carlo Dallapiccola. 
 
-### Project interests
+### Project 
+
+### Recent Accomplishments
 
 ### Mentors 
+
+### Traineeship dates
+
+

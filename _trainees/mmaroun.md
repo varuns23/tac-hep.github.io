@@ -14,9 +14,12 @@ networks:
 presentations:
 ---
 
-### Biography
+### Biography and Interests
 
+### Project 
 
-### Project interests
+### Recent Accomplishments
 
 ### Mentors
+
+### Traineeship dates
