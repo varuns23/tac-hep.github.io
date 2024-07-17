@@ -18,7 +18,7 @@ You should submit a pull request with the photo, a markdown file with the summar
 
 The markdown file has a part a the top (delimited by "---") called the frontmatter. This is described below. In the main body of the markdown file you should have the following sections:
 
-  * Biography and Interests
+  * Biography and Interests - Biographical information such as where you were an undergraduate and when you started graduate school, plus information about your interests (physics, analysis, software and computing)
   * Project - this should be a description of the project you are working on as a TAC-HEP trainee
   * Recent Accomplishments - this may be blank ath beginning, but should eventually grow to a bullet point list of things you accomplished on your project (including links to related presentations, repositories in github, etc.)
   * Mentors - this should be a bullet point list of your mentors (name and institution). It should include both someone at your university and someone at one of the DOE labs.
