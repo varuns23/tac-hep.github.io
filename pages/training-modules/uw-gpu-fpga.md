@@ -9,7 +9,7 @@ title: GPU FPGA training
 This training module aims to introduce the students to the concept of hardware accelerators and programming of heterogeneous systems. The training is split in two parts, one dedicated to GPU programming and the second dedicated to introduction to FPGAs and Xilinx Vivado High Level Synthesis (HLS) tool to develop firmware for FPGA.
 The duration of this training is 1 semester (14 weeks). The detailed syllabus and series of lectures (as taught during Fall 2022) can be found below.
 </p>
-- [Course syllabus]({{ site.baseurl }}/training-modules/uw-gpu-fpga/syllabus)
+- [Course syllabus (2022)]({{ site.baseurl }}/training-modules/uw-gpu-fpga/syllabus)
 - Series of lectures for GPU part:
   - [Lecture 1]({{ site.baseurl }}/assets/pdf/uw-gpu-fpga/TAC-HEP_trainingModule_Week1_Lecture1.pdf) Introduction to hardware accelerators
   - [Lecture 2]({{ site.baseurl }}/assets/pdf/uw-gpu-fpga/TAC-HEP_trainingModule_Week1_Lecture2.pdf) The GPU and its applications in HEP
