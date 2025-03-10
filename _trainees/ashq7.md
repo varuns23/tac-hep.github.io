@@ -6,6 +6,10 @@ institution: Princeton University
 e-mail: aq3942@princeton.edu
 github-username: ashq7 
 photo: "/assets/images/trainees/Ashling-Quinn.png"
+start_date: "2024-01-23"
+end_date: ""
+training_modules:
+- GPU training module
 shortname: ashq7
 title:
 website:
@@ -24,6 +28,5 @@ I am  working on Phase 2 L1 Calorimeter Trigger upgrades, algorithms and Fast-Ma
 
 ### Mentors 
 
-### Traineeship dates
 
 

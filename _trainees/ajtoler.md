@@ -3,6 +3,10 @@ layout: collaborator
 active: true
 name: Andrew Toler
 institution: University of Massachusetts Amherst
+start_date: "2023-07-01"
+end_date: "2025-06-30"
+training_modules:
+- GPU training module
 e-mail: atoler@umass.edu
 github-username: ajtoler
 photo: "/assets/images/trainees/Andrew-Toler.jpg"
@@ -30,7 +34,5 @@ I am contributing to the Level 0 Monitored Drift Tube (L0MDT) effort through sim
   * Verena Martinez Outschoorn (University of Massachusetts)
   * Stéphane Willocq (University of Massachusetts Amherst)
 
-### Traineeship dates
-July 1st 2023 to June 30th 2025
 
 

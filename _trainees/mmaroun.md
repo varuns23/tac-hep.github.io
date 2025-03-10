@@ -6,6 +6,10 @@ institution: University of Massachusetts Amherst
 e-mail: mmaroun@umass.edu
 github-username: mmaroun0
 photo: "/assets/images/trainees/Matthew-Maroun-TAC-HEP.jpeg"
+start_date: "2023-07-01"
+end_date: ""
+training_modules:
+- GPU training module
 shortname: mmaroun
 title: 
 website: (https://www.umass.edu/physics/people/matthew-maroun)
@@ -36,6 +40,3 @@ I am a third-year graduate students interested in Higgs physics and in software 
 - Verena Martinez Outschoorn (UMass)
 - Rafael Coelho Lopes de Sa (UMass)
 
-### Traineeship dates
-
-2023-2024

@@ -4,9 +4,10 @@ shortname: rpsimeon34
 name: Ryan Simeon
 title: Ryan Simeon - TAC-HEP Fellow
 active: True
-dates:
-  start: 2023-01-23
-  end:
+start_date: "2023-01-23"
+end_date: ""
+training_modules:
+- GPU training module
 photo: /assets/images/trainees/Ryan-Simeon2024.jpeg
 institution: University of Wisconsin - Madison
 e-mail: rsimeon@wisc.edu

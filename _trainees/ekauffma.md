@@ -6,6 +6,10 @@ institution: Princeton University
 e-mail: ek8842@princeton.edu
 github-username: ekauffma
 photo: "/assets/images/trainees/Elliott-Kauffman.jpg"
+start_date: "2023-07-01"
+end_date: "2025-06-30"
+training_modules:
+- GPU training module
 shortname: ekauffma
 title: 
 website: 
@@ -27,6 +31,5 @@ I am interested in how the field of high energy physics motivates advances in co
 
 ### Mentors 
 
-### Traineeship dates
 
 

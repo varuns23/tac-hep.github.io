@@ -3,6 +3,10 @@ layout: collaborator
 active: true
 name: Matthew Harris
 institution: University of Massachusetts Amherst
+start_date: "2023-01-01"
+end_date: "2025-01-01"
+training_modules:
+- GPU training module
 e-mail: Matthewharri@umass.edu
 github-username: Matthewharri
 photo: "/assets/images/trainees/Matthew-Harris.png"
@@ -48,7 +52,3 @@ I currently work in the muon software group within ATLAS focused on Phase-II upg
   * Johannes Junggeburth (University of Massachusetts, Amherst / CERN)
   * Andreas Salzburger (CERN)
   * Torre Wenaus (BNL)
-    
-### Traineeship dates
-
-  * 2023-01-01 to 2025-01-01

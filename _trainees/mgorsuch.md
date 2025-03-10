@@ -3,6 +3,10 @@ layout: collaborator
 active: true
 name: Miranda Gorsuch
 institution: University of Wisconsin-Madison
+start_date: "2023-07-01"
+end_date: ""
+training_modules:
+- GPU training module
 institutionkey: wisconsin
 e-mail: mrgorsuch@wisc.edu
 photo: "/assets/images/trainees/Miranda-Gorsuch.jpg"
@@ -44,4 +48,3 @@ on survey-scale LSST data release processing.
 - Keith Bechtol (Univeristy of Wisconsin - Madison, advisor)
 - Alex Drlica-Wagner (Fermilab)
 
-### Traineeship dates

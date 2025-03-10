@@ -6,6 +6,10 @@ institution: "University of Wisconsin-Madison"
 e-mail: emchavez@wisc.edu
 github-username: nanoemc
 photo: /assets/images/trainees/Elise-Chavez.jpg
+start_date: "2023-01-24"
+end_date: "2025-01-24"
+training_modules:
+- GPU training module
 shortname: nanoemc
 title: 
 website: https://www.physics.wisc.edu/directory/chavez-elise-m/
@@ -34,8 +38,4 @@ I currently work on the Elastic Analysis Facility (EAF) hosted at Fermilab. It i
   * Tulika Bose (University of Wisconsin-Madison)
   * Burt Holtzman (Fermilab>)
   * Maria Acosta Flechas (Fermilab)
-
-### Traineeship dates
-
-  * 2023-01-24 to 2025-01-24
 
