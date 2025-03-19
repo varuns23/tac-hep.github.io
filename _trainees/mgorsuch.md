@@ -7,6 +7,8 @@ start_date: "2023-07-01"
 end_date: ""
 training_modules:
 - GPU training module
+- Software Engineering training module
+- FPGA training module (in progress)
 institutionkey: wisconsin
 e-mail: mrgorsuch@wisc.edu
 photo: "/assets/images/trainees/Miranda-Gorsuch.jpg"
@@ -43,6 +45,10 @@ on survey-scale LSST data release processing.
 - Developed collection of testing analyses for cell-based coadds (in progress) [GitHub link](https://github.com/mirarenee/notebooks/blob/main/cell_coadds/cell_coadd_sandbox.ipynb)
 - Developed an introductory notebook for cell-based coadds (in progress) [GitHub link](https://github.com/mirarenee/notebooks/blob/main/cell_coadds/cell_coadd_intros.ipynb)
 - Aided in testing image warping and coaddition tasks within LSST Science Pipelines
+- Presentation (May 2024): [DESC Pixel-to-Object Working Group Meeting](https://docs.google.com/presentation/d/1QXJ2kSY3UsRqOIzYYdc5mNhMgxr1Yz2g9TwnEO7RhzQ/edit?usp=sharing)
+- Presentation (September 2024): [Rubin Weak Lensing Science Unit Meeting](https://docs.google.com/presentation/d/17QidHpdwHkf4kYHuGC6_G_0Xl2FdhehLQwDxkXznfNo/edit?usp=sharing)
+- Presentation (January 2025): [Preliminary Exam](https://docs.google.com/presentation/d/1315Ez2M7VTA3iSbErIMgpJ0DnTjK-Vg-CVq9XcRsAD4/edit?usp=sharing)
+- Technote documentation (public draft): [Getting Started with Cell-Based Coadds](https://sitcomtn-137.lsst.io/v/u-mirarenee-init/index.html)
 
 ### Mentors
 - Keith Bechtol (Univeristy of Wisconsin - Madison, advisor)
