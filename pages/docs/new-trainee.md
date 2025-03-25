@@ -29,14 +29,15 @@ The markdown file has a part a the top (delimited by "---") called the frontmatt
 
 ```yml
 layout: collaborator
+active: true
 shortname: <your GitHub user id>
 name: <Your Name>
-active: True
-dates:
-  start: <start date>
-  end: <end date>
+start_date: "2025-01-01"
+end_date: "2025-01-01"
 photo: /assets/images/trainees/<First name>-<Last name>.jpg
 institution: <Your institution>
+training_modules:
+- 
 e-mail: <Your email>
 networks:
   - <which of [cms|atlas|vro|dune|etc] is appropriate>
