@@ -1,11 +1,10 @@
 ---
 layout: collaborator
+active: true
 shortname: Garnet-Starz
 name: Julianne Starzee
-active: True
-dates:
-  start: 2025-01-01
-  end:
+start_date: "2025-01-01"
+end_date: ""
 photo: /assets/images/trainees/Julianne-Starzee.jpg
 institution: University of Massachusetts Amherst
 e-mail: jstarzee@umass.edu

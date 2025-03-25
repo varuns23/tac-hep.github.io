@@ -1,11 +1,10 @@
 ---
 layout: collaborator
+active: true
 shortname: DaiJon24
 name: DaiJon James
-active: True
-dates:
-  start: 2025-01
-  end: N/A
+start_date: "2025-01-01"
+end_date: ""
 photo: /assets/images/trainees/DaiJon-James.JPG
 institution: University of Massachusetts Amherst
 e-mail: Daijonjames@umass.edu
@@ -28,3 +27,4 @@ I am a first year graduate student at the University of Massachusetts Amherst
 ### Mentors 
   * Verena Martinez Outschoorn (University of Massachusetts)
  
+
