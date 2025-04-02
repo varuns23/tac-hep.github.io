@@ -6,6 +6,10 @@ institution: Princeton University
 e-mail: skwan@princeton.edu
 github-username: skkwan
 photo: "/assets/images/trainees/Stephanie-Kwan.jpeg"
+start_date: "2022-07-01"
+end_date: "2024-06-30"
+training_modules:
+- GPU training module
 shortname: skkwan
 title:
 website: https://www.linkedin.com/in/stephanie-k-kwan/

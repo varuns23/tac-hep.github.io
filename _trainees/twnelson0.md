@@ -7,6 +7,10 @@ institutionkey: wisconsin
 e-mail: twnelson2@wisc.edu
 github-username: twnelson0
 photo: /assets/images/trainees/Trevor-Nelson.jpg
+start_date: "2022-06-01"
+end_date: "2024-06-01"
+training_modules:
+- GPU training module
 shortname: twnelson0
 title: 
 networks:
@@ -27,7 +31,4 @@ I am currently working on porting the doublet/triplet seed building code and see
  * Dr. Matti Kortelainen (Fermi Lab)
  * Dr. Andrea Bocci (CERN)
 
-### Dates
-
-1 June, 2022 - 1 June, 2024 
 
