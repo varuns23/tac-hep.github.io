@@ -19,10 +19,10 @@ The duration of this training is 1 semester (14 weeks). The detailed syllabus an
   - [Lecture 6]({{ site.baseurl }}/assets/pdf/uw-gpu/TAC-HEP_trainingModule_Week3_Lecture6.pdf) Introduction to CUDA : Memory managments, synchonization and error handling                
   - [Lecture 7]({{ site.baseurl }}/assets/pdf/uw-gpu/TAC-HEP_trainingModule_Week4_Lecture7.pdf) Introduction to CUDA : Coalesced memory access and performance considerations               
   - [Lecture 8]({{ site.baseurl }}/assets/pdf/uw-gpu/TAC-HEP_trainingModule_Week4_Lecture8.pdf) Introduction to CUDA : Shared memory, atomic operations and the default CUDA stream               
-  - [Lecture 9]({{ site.baseurl }}/404.html) CUDA advanced topics : CUDA streams
-  - [Lecture 10]({{ site.baseurl }}/404.html) CUDA advanced topics : C++ standards
-  - [Lecture 11]({{ site.baseurl }}/404.html) Profiling software with Intel OneAPI Toolset Profilers: Vtune and Advisor 
-  - [Lecture 12]({{ site.baseurl }}/404.html) Introduction to Nvidia profiling tools : Nsight system and Nsight compute
-  - [Lecture 13]({{ site.baseurl }}/404.html) CUDA advanced topics : Managed memory
-  - [Lecture 14]({{ site.baseurl }}/404.html) Introduction to Alpaka : Performance portability, Alpaka platforms, devices, queues and events 
-  - [Lecture 15]({{ site.baseurl }}/404.html) Introduction to Alpaka : Memory managment, device functions and kernels, work division
+  - [Lecture 9]({{ site.baseurl }}/assets/pdf/uw-gpu/TAC-HEP_trainingModule_Week5_Lecture9.pdf) CUDA advanced topics : CUDA streams
+  - [Lecture 10]({{ site.baseurl }}/assets/pdf/uw-gpu/TAC-HEP_trainingModule_Week6_Lecture10.pdf) CUDA advanced topics : C++ standards
+  - [Lecture 11]({{ site.baseurl }}/assets/pdf/uw-gpu/Profiling_with_Intel_OneAPI-1.pdf) Profiling software with Intel OneAPI Toolset Profilers: Vtune and Advisor 
+  - [Lecture 12]({{ site.baseurl }}/assets/pdf/uw-gpu/intro_CUDA_profiling_2024.pdf) Introduction to Nvidia profiling tools : Nsight system and Nsight compute
+  - [Lecture 13]({{ site.baseurl }}/assets/pdf/uw-gpu/20230301-TACHEPManagedMemory.pdf) CUDA advanced topics : Managed memory
+  - [Lecture 14]({{ site.baseurl }}/assets/pdf/uw-gpu/An_introduction_to_alpaka_part1.pdf) Introduction to Alpaka : Performance portability, Alpaka platforms, devices, queues and events 
+  - [Lecture 15]({{ site.baseurl }}/assets/pdf/uw-gpu/An_introduction_to_alpaka_part2.pdf) Introduction to Alpaka : Memory managment, device functions and kernels, work division
